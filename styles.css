@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #282c34; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+}
+
+header {
+    background: #1c1f24; /* Darker header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #61dafb; /* Light blue for links */
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #61dafb; /* Light blue button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5bc0be; /* Button hover effect */
+}
+
+main {
+    padding: 20px;
+}
+
+.project-card {
+    background: #3a3d42; /* Dark card background */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1c1f24;
+}
+
+/* Dark Mode Styles */
+body.dark {
+    background-color: #121212; /* Darker background */
+    color: #ffffff; /* White text */
+}
+
+header.dark {
+    background: #1c1f24; /* Darker header */
+}
+
+.project-card.dark {
+    background: #3a3d42; /* Dark card for dark mode */
+}
+
+/* Style for Toggle Button */
+#theme-toggle {
+    margin-top: 10px;
+    background: #61dafb;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
